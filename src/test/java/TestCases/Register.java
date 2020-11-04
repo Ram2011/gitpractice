@@ -36,6 +36,7 @@ public void initialize() throws IOException
 		reg.iagreeterm().click();
 		reg.signup().click();
 		System.out.println("Testing Git functionality");
+		System.out.println("changes done by master");
 	}
 
 @AfterTest
