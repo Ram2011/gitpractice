@@ -35,6 +35,7 @@ public void initialize() throws IOException
 		reg.iagreeinstr().click();
 		reg.iagreeterm().click();
 		reg.signup().click();
+		System.out.println("Testing Git functionality");
 	}
 
 @AfterTest
