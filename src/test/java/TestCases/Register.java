@@ -42,6 +42,7 @@ public void initialize() throws IOException
 @AfterTest
 public void close()
 {
+	System.out.println("closing driver");
 	driver.close();
 }
 	
